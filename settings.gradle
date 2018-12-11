@@ -1,1 +1,1 @@
-include ':app', ':shaowenlong201812102', ':day12', ':myapplication789'
+include ':app', ':shaowenlong201812102'
