@@ -26,7 +26,7 @@ public class PresenterImpl implements Ipresenter {
 
             @Override
             public void onfail(Exception e) {
-
+                iview.error(String.valueOf(e));
             }
         });
     }
@@ -39,6 +39,7 @@ public class PresenterImpl implements Ipresenter {
             iview = null;
         }
     }
+
 
 
 }
